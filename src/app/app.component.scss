@@ -1,0 +1,563 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+}
+
+.background {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+  overflow: hidden;
+  background-image: url('https://9to5mac.com/2016/11/28/download-macos-sierra-macbook-pro-touch-bar-marketing-wallpaper-pack/color-burst-2/');
+}
+
+p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: forte;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 14%;
+  left: 90%;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0;
+  padding: 120px;
+  background: #fff;
+  width: 100%;
+  height: 150px;
+}
+
+
+h2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 115%;
+  left: 52%;
+  color: rgb(0, 0, 0);
+  font-family: verdana;
+  font-size: 40px;
+  letter-spacing: 20px;
+  opacity: 0.6;
+  transition: 2s;
+  text-shadow: 1px 1px 15px lightgrey;
+  font-weight: lighter;
+}
+
+h2:hover {
+  transition: 2s;
+  letter-spacing: 80px;
+  cursor: pointer;
+  text-shadow: 2px 2px 18px grey;
+  opacity: 0.8;
+}
+
+.w4-container {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('http://antonp.com/wp-content/uploads/2018/12/javascript1.png');
+  opacity: 1;
+  z-index: 999;
+}
+
+.w3-container {
+  margin: 0;
+  width: 100%;
+  height: 250px;
+  background: #fff;
+  overflow: hidden;
+  clear: both;
+}
+
+#content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 245%;
+  left: 33%;
+  font-size: 35px;
+  font-family: verdana;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+#content2 {
+   position: absolute;
+  transform: translate(-50%, -50%);
+  top: 245%;
+  left: 38%;
+  font-size: 35px;
+  font-family: verdana;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+#content3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 245%;
+  left: 43%;
+  font-size: 35px;
+  font-family: verdana;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+#content4 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 245%;
+  left: 48%;
+  font-size: 35px;
+  font-family: verdana;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+#content5 {
+   position: absolute;
+  transform: translate(-50%, -50%);
+  top: 245%;
+  left: 53%;
+  font-size: 35px;
+  font-family: verdana;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+#content6 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 245%;
+  left: 58%;
+  font-size: 35px;
+  font-family: verdana;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+#content7 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 245%;
+  left: 63%;
+  font-size: 35px;
+  font-family: verdana;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+#content8 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 245%;
+  left: 68%;
+  font-size: 35px;
+  font-family: verdana;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+#content:hover {
+  transition: 2s;
+  margin-top: 60px;
+  cursor: pointer;
+  color: black;
+}
+
+#content2:hover {
+  transition: 2s;
+  margin-top: -90px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+#content3:hover {
+  transition: 2s;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+#content4:hover {
+  transition: 2s;
+  margin-top: -90px;
+  cursor: pointer;
+}
+
+#content5:hover {
+  transition: 2s;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+#content6:hover {
+  transition: 2s;
+  margin-top: -90px;
+  cursor: pointer;
+}
+
+#content7:hover {
+  transition: 2s;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+#content8:hover {
+  transition: 2s;
+  margin-top: -90px;
+  cursor: pointer;
+}
+
+.section:hover h3:nth-child(3) {
+  transition: 2s;
+  margin-top: -90px;
+  cursor: pointer;
+}
+
+.section:hover h3:nth-child(7) {
+  transition: 2s;
+  margin-top: 60px;
+  cursor: pointer;
+  opacity: 1;
+  color: rgb(0, 0, 0);
+}
+
+.section:hover h3:nth-child(1) {
+  transition: 2s;
+  margin-top: 60px;
+  cursor: pointer;
+  opacity: 1;
+  color: black;
+}
+
+.section:hover h3:nth-child(5) {
+  transition: 2s;
+  margin-top: -90px;
+  cursor: pointer;
+}
+
+.section:hover h3:nth-child(8) {
+  transition: 2s;
+  margin-top: -90px;
+  cursor: pointer;
+}
+
+.section:hover h3:nth-child(4) {
+  transition: 2s;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.minimalistic {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -webkit-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('https://wallpaperplay.com/walls/full/f/3/e/121431.jpg');
+  background-position: center;
+  -webkit-background-position: center;
+}
+
+.minimalistic-container {
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 220px;
+  -moz-height: 170px;
+  background: #fff;
+  -webkit-background: #fff;
+  -ms-background: #fff;
+  -moz-background: #fff;
+}
+
+#border {
+  border: 5px solid black;
+  width: 50px;
+  height: 50px;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  opacity: 0.6;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-top: -80px;
+  margin-left: -80px;
+}
+
+#border2 {
+  border: 5px solid black;
+  width: 50px;
+  height: 50px;
+  opacity: 0.6;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-left: -105px;
+  margin-top: 55px;
+}
+
+.border3 {
+  border: 5px solid black;
+  width: 50px;
+  height: 50px;
+  opacity: 0.6;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: -5%;
+}
+
+.container1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 35%;
+  top: 371%;
+  font-size: 35px;
+  font-family: arial;
+  opacity: 0.7;
+  font-weight: 600;
+  transition: 2s;
+  animation: mymove 2s linear infinite;
+}
+
+.container2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 40%;
+  top: 370.5%;
+  font-size: 50px;
+  font-family: arial;
+  font-weight: 500;
+  opacity: 0.68;
+  transition: 2s;
+  animation: mymove 2s linear infinite;
+}
+
+.container3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 370.5%;
+  left: 45%;
+  font-size: 45px;
+  opacity: 0.67;
+  font-weight: 500;
+  font-family: arial;
+  transition: 2s;
+  animation: myOpacity 2s linear infinite;
+}
+
+.container4 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 370.5%;
+  font-family: arial;
+  font-size: 50px;
+  opacity: 0.7;
+  font-weight: 500;
+  transition: 2s;
+  animation: mymove 2s linear infinite;
+}
+
+.container5 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 55%;
+  top: 370.5%;
+  font-family: arial;
+  font-size: 50px;
+  opacity: 0.7;
+  font-weight: 500;
+  transition: 2s;
+  animation: myOpacity 2s linear infinite;
+}
+
+.container6 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 60%;
+  top: 370.5%;
+  font-family: arial;
+  font-size: 50px;
+  opacity: 0.7;
+  font-weight: 500;
+  transition: 2s;
+  animation: mymove 2s linear infinite;
+}
+
+.container7 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 65%;
+  top: 370.5%;
+  font-family: arial;
+  font-size: 50px;
+  opacity: 0.7;
+  font-weight: 500;
+  transition: 2s;
+  animation: myOpacity 2s linear infinite;
+}
+
+@keyframes mymove {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes myOpacity {
+  0% {
+    opacity: .1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: .1;
+  }
+}
+
+.last-wallpapper {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('https://images8.alphacoders.com/954/954228.jpg');
+}
+
+.border3 {
+  width: 50px;
+  height: 50px;
+  border: 5px solid black;
+}
+
+.hamburger-menu {
+  width: 70px;
+  display: block;
+  padding: 2em 0 0 2em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 18%;
+  left: 8%;
+  cursor: pointer;
+}
+
+.hamburger-menu div {
+  width: 70px;
+  height: 1px;
+  padding: 5px 0;
+  background: #fff;
+  margin: 8px 10px;
+  border-radius: 30px;
+  transition: 1s;
+}
+
+.hamburger-menu:hover div:nth-child(1) {
+  transition: 1s;
+  transform: translateY(22px) rotate(-47deg);
+}
+
+.hamburger-menu:hover div:nth-child(3) {
+  transition: 1s;
+  transform: translateY(-14px) rotate(43deg);
+}
+
+.hamburger-menu:hover div:nth-child(2) {
+  opacity: 0;
+  transition: 1s;
+}
+
+@media(max-width: 767px) {
+  .hamburger-menu {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 5%;
+  }
+}
+
+.side1 {
+  width: 0px;
+  height: 0px;
+  border: 20px solid #fff;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 12.2%;
+  left: 86%;
+  transform: rotate(90deg);
+}
+
+.side2 {
+  width: 0px;
+  height: 0px;
+  border: 20px solid #fff;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 12.2%;
+  left: 92.9%;
+  transform: rotate(-90deg);
+}
+
+@media(max-width: 767px) {
+  .side1 {
+    display: none;
+  }
+
+  .side2 {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #0099ff;
+  height: 300px;
+}
